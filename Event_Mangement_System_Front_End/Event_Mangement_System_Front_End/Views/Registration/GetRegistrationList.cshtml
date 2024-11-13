@@ -1,0 +1,29 @@
+﻿ @model List<Event_Mangement_System_Front_End.Models.Registration>;
+ @{
+     int index = 0;
+ }
+
+ <div class="container">
+     <h2> Registered Attendees</h2>
+     <table class="table table-striped">
+         <tr>
+             <th>SNo</th>
+             <th>Attendee Name</th>
+             <th>Attendee Email</th>
+             <th>Event Name</th>
+             <th>Event Date</th>
+         </tr>
+         @foreach (var register in Model)
+         {
+             index++;
+             <tr>
+                 <td>@index</td>
+                 <td>@register.name</td>
+                 <td>@register.email</td>
+                 <td>@register.events</td>
+                 <td>@register.date</td>
+             </tr>
+
+         }
+     </table>
+ </div>

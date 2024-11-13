@@ -1,0 +1,57 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.cus_label{
+    padding:5px;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f8f9fa;
+}
+.custom_btn{
+   margin-left:150px;
+}
+
+.container {
+    min-width:400px;
+    max-width: fit-content;
+    margin-top: 50px;
+    height:fit-content;
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding:10px;
+}
+.cus_btn{
+    margin-top:10px;
+    right:0;
+    
+}
+table{
+    border-collapse:collapse;
+    border: 0.5px solid lightgrey;
+}
+th, td {
+    border: 0.5px solid lightgrey;
+}
+.custom_con{
+    display:flex;
+}
+.cus_pop {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}

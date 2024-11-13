@@ -1,0 +1,69 @@
+﻿@model Event_Mangement_System_Front_End.Models.Event
+@{
+    int index = 0;
+}
+
+<div class="container">
+    <h2>Event</h2>
+    <form asp-controller="Events" asp-action="FilterEventbyDate" method="post">
+        <div class="form-group">
+            <label class="cus_label" for="filterDate">Filter by Date:</label>
+            <input asp-for="Date" type="date" class="form-control" />
+            <span asp-validation-for="Date" class="text-danger cus_label"></span>
+        </div>
+        <div class="text-end">
+            <button type="submit" class="btn btn-success btn-block cus_btn">Filter</button>
+        </div>
+    </form>
+
+    @{
+        if (ViewBag.date != null)
+        {
+            if (ViewBag.date.Count > 0)
+            {
+                <div class=".container">
+                    <table class="table table-striped mt-3">
+                        <thead>
+                            <tr>
+                                <th>SNo</th>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Location</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var events in ViewBag.date)
+                            {
+                                if (events.IsActive == 0)
+                                {
+                                    index++;
+                                    <tr>
+                                        <td>@index</td>
+                                        <td>@events.Title</td>
+                                        <td>@events.Date</td>
+                                        <td>@events.Location</td>
+                                        <td>
+                                            <a href="/Events/UpdateEvent/@events.EventID">Edit</a> |
+                                            <a href="/Events/DeleteEvent/@events.EventID">Hard Delete</a> |
+                                            <a href="/Events/SoftDelete/@events.EventID">Soft Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <h5 class="align-content-center">No Events Found</h5>
+            }
+        }
+    }
+</div>
+<script>
+    function Delete(){
+        <h1>hello</h1>
+    }
+</script>

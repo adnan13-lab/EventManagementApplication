@@ -1,0 +1,48 @@
+﻿@model Event_Mangement_System_Front_End.Models.Event
+
+
+<div class="container">
+    <h2>Add Event</h2>
+    <form asp-controller="Events" asp-action="AddEvent" method="post">
+        <div class="form-group">
+            <label asp-for="Title" class="control-label cus_label"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger cus_label"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Date" class="control-label cus_label"></label>
+            <input asp-for="Date" type="date" class="form-control" />
+            <span asp-validation-for="Date" class="text-danger cus_label"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Location" class="control-label cus_label"></label>
+            <input asp-for="Location" class="form-control" />
+            <span asp-validation-for="Location" class="text-danger cus_label"></span>
+        </div>
+
+           <div class="form-group">
+               <label class="form-label">Select Attendee:</label>
+            <select asp-for="At_Id" class="form-select" aria-label="Select an attendee">
+                   <option value="">Select an Attendee</option>
+                @{
+                    if (ViewBag.attendee != null)
+                    {
+                        foreach (var item in ViewBag.attendee)
+                        {
+                            <option value="@item.AttendeeID">@item.Name</option>
+                        }
+                    }
+                    else
+                    {
+                        <option>empty</option>
+                    }
+                }
+               </select>
+               </div>
+        <div class="form-group text-end">
+            <button type="submit" class="btn btn-success btn-block cus_btn">Add</button>
+        </div>
+    </form>
+</div>

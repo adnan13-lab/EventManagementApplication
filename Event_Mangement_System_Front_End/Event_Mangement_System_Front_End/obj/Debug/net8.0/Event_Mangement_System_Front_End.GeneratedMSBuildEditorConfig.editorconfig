@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Event_Mangement_System_Front_End
+build_property.RootNamespace = Event_Mangement_System_Front_End
+build_property.ProjectDir = C:\Users\adnan.shah\source\repos\Event_Mangement_System_Front_End\Event_Mangement_System_Front_End\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\adnan.shah\source\repos\Event_Mangement_System_Front_End\Event_Mangement_System_Front_End
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Attendee/GetAttendees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcR2V0QXR0ZW5kZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Attendee/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Attendee/ShowError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcU2hvd0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Attendee/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Attendee/UpdateAttendee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcVXBkYXRlQXR0ZW5kZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Events/AddEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEFkZEV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Events/FilterEventbyDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEZpbHRlckV2ZW50YnlEYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Events/GetEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEdldEV2ZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Events/UpdateEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFVwZGF0ZUV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Registration/GetRegistrationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEdldFJlZ2lzdHJhdGlvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adnan.shah/source/repos/Event_Mangement_System_Front_End/Event_Mangement_System_Front_End/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gns35k5uxg

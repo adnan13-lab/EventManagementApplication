@@ -1,0 +1,65 @@
+﻿@model List<Event_Mangement_System_Front_End.Models.Attendee>;
+@{
+    int index = 0;
+}
+
+<h2>Attendees</h2>
+<div class=".container">
+    @{
+        if (Model.All(a => a.IsActive == 1))
+        {
+            <h5 class="text-md-center">Attendee Not Found</h5>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <tr>
+                    <th>SNo</th>
+                    @* <th>AttendeeID</th> *@
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+                @foreach (var attendee in Model)
+                {
+                    if (attendee.IsActive == 0)
+                    {
+                        index++;
+                        <tr>
+                            <td>@index</td>
+                            <td>@attendee.Name</td>
+                            <td>@attendee.Email</td>
+                            <td>
+                                <a href="/Attendee/UpdateAttendee/@attendee.AttendeeID">Edit</a> |
+                                <a href="/Attendee/HardDelete/@attendee.AttendeeID">Hard Delete</a> |
+                                <a href="/Attendee/SoftDelete/@attendee.AttendeeID">Soft Delete</a>
+                            </td>
+                        </tr>
+                    }
+
+                }
+            </table>
+
+
+        }
+    }
+    <div class="text-end">
+        @{
+            if (!Model.All(a => a.IsActive == 1))
+            {
+                <button onclick="Events()" class="btn btn-success btn-block cus_btn">Events</button>
+            }
+        }
+        <button onclick="Add()" class="btn btn-success btn-block cus_btn">Register</button>
+    </div>
+</div>
+
+<script>
+    function Add(){
+        window.location.href = "/Attendee/SignUp";
+    }
+    function Events(){
+        window.location.href = "/Events/GetEvents";
+    }
+</script>
+

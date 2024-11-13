@@ -1,0 +1,14 @@
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\bin\Debug\net8.0\Event_Management_Application_Models.deps.json
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\bin\Debug\net8.0\Event_Management_Application_Models.runtimeconfig.json
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\bin\Debug\net8.0\Event_Management_Application_Models.dll
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\bin\Debug\net8.0\Event_Management_Application_Models.pdb
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.csproj.AssemblyReference.cache
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.AssemblyInfoInputs.cache
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.AssemblyInfo.cs
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.csproj.CoreCompileInputs.cache
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.dll
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\refint\Event_Management_Application_Models.dll
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.pdb
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\Event_Management_Application_Models.genruntimeconfig.cache
+C:\Users\adnan.shah\source\repos\Event_Management_Application\Event_Management_Application_Models\obj\Debug\net8.0\ref\Event_Management_Application_Models.dll

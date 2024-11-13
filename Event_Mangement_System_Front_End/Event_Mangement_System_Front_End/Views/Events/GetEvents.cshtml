@@ -1,0 +1,68 @@
+﻿@model List<Event_Mangement_System_Front_End.Models.Event>;
+@{
+    int index = 0;
+}
+
+<h2>Events</h2>
+<div class=".container">
+    @{
+        if (Model.All(e => e.IsActive == 1))
+        {
+            <h5 class="text-md-center">Event Not Found</h5>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <tr>
+                    <th>SNo</th>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Actions</th>
+                </tr>
+                @foreach (var events in Model)
+                {
+                    if (events.IsActive == 0)
+                    {
+                        index++;
+                        <tr>
+                            <td>@index</td>
+                            <td>@events.Title</td>
+                            <td>@events.Date</td>
+                            <td>@events.Location</td>
+                            <td>
+                                <a href="/Events/UpdateEvent/@events.EventID">Edit</a> |
+                                <a href="/Events/DeleteEvent/@events.EventID">Hard Delete</a> |
+                                <a href="/Events/SoftDelete/@events.EventID">Soft Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+
+        }
+    }
+    <div class="text-end">
+        <button style="margin-left:120px;" onclick="Add()" class="btn btn-success btn-block cus_btn">Add</button>
+        @{
+            if (!Model.All(e => e.IsActive == 1))
+            {
+                <button style="margin-left:10px;" onclick="Search()" class="btn btn-success btn-block cus_btn">Search</button>
+            }
+        }
+        <button onclick="Registered()" class="btn btn-success btn-block cus_btn">Registered Attendee</button>
+    </div>
+   
+</div>
+    <script>
+    function Add(){
+        window.location.href = "/Events/AddEvent";
+    }
+    function Search(){
+        window.location.href = "/Events/FilterEventbyDate";
+    }
+    function Registered(){
+        window.location.href = "/Registration/GetRegistrationList";
+    }
+    </script>
+

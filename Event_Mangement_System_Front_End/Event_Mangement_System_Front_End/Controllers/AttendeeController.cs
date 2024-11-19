@@ -7,29 +7,25 @@ namespace Event_Mangement_System_Front_End.Controllers
     public class AttendeeController : Controller
     {
         
-        public readonly HttpClient _httpClient;
-        public Logger? logger = Logger.instance();
+        public readonly AttendeeRepository _attendeeRepository;
 
-        public string URL = "https://localhost:7261/api/Attendee";
-
-        public AttendeeController(HttpClient httpClient)
+        public AttendeeController(AttendeeRepository attendeeRepository)
         {
-            this._httpClient = httpClient;
+            this._attendeeRepository = attendeeRepository;
         }
 
 
         [HttpGet]
         public IActionResult SignUp()
         {
-            logger?.Log("User Visited Sign Up Page");
             return View();
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAttendees()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<Attendee>>(URL);
-            return View(response);
+            var response = await _attendeeRepository.GetAttendees();
+            return View(response.Value);
         }
 
         [HttpPost]
@@ -37,9 +33,8 @@ namespace Event_Mangement_System_Front_End.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = await _httpClient.PostAsJsonAsync<Attendee>(URL, attendee);
+                var response = await _attendeeRepository.SignUp(attendee);
                 return RedirectToAction("Login");
-                //return RedirectToAction("GetAttendees");
             }
             return View();
         }
@@ -47,7 +42,6 @@ namespace Event_Mangement_System_Front_End.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            logger?.Log("User Visited Login Page");
             return View();
         }
 
@@ -61,8 +55,8 @@ namespace Event_Mangement_System_Front_End.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = await _httpClient.PostAsJsonAsync<Login>("https://localhost:7261/api/Attendee/FilterByEmail", login);
-                if (response.IsSuccessStatusCode)
+                var response = await _attendeeRepository.Login(login);
+                if (response != null)
                 {
                     return RedirectToAction("GetAttendees");
                 }
@@ -78,10 +72,10 @@ namespace Event_Mangement_System_Front_End.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateAttendee(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<Attendee>($"{URL}/{id}");
+            var response = await _attendeeRepository.UpdateAttendee(id);
 
-            ViewData["name"] = response!.Name;
-            ViewData["email"] = response.Email;
+            ViewData["name"] = response.Value!.Name;
+            ViewData["email"] = response.Value!.Email;
 
             return View();
 
@@ -92,7 +86,7 @@ namespace Event_Mangement_System_Front_End.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = await _httpClient.PutAsJsonAsync<Attendee>($"{URL}/{id}", attendee);
+                var response = await _attendeeRepository.UpdateAttendee(id,attendee);
                 return RedirectToAction("GetAttendees");
             }
             return View();
@@ -102,24 +96,14 @@ namespace Event_Mangement_System_Front_End.Controllers
         [Route("Attendee/HardDelete/{id}")]
         public async Task<IActionResult> HardDelete(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<Attendee>($"{URL}/{id}");
-
-            if (response != null)
-            {
-                await _httpClient.DeleteAsync($"{URL}/{id}");
-            }
-            else
-            {
-                return Json("Event Not Found");
-            }
+            var response = await _attendeeRepository.HardDelete(id);
             return RedirectToAction("GetAttendees");
         }
 
         [Route("Attendee/SoftDelete/{id}")]
         public async Task<IActionResult> SoftDelete(int id)
         {
-            var response = await _httpClient.PatchAsync($"https://localhost:7261/api/Attendee/SoftDelete/{id}",null);
-           
+            var response = await _attendeeRepository.SoftDelete(id);
             return RedirectToAction("GetAttendees");
         }
     }

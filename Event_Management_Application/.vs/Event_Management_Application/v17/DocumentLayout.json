@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\",
+  "WorkspaceRootPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management_application\\event_management_application_controllers\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|solutionrelative:event_management_application_controllers\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management_application\\event_management_application_controllers\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|solutionrelative:event_management_application_controllers\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management_application\\event_management_application_controllers\\controllers\\registerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_management_application\\event_management_application_controllers\\controllers\\registerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|solutionrelative:event_management_application_controllers\\controllers\\registerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management_application\\event_management_application_controllers\\services\\iregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|solutionrelative:event_management_application_controllers\\services\\iregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_management_application\\event_management_application_controllers\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACD4E3F-41B1-445C-A8D4-A8A54086ADF7}|Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj|solutionrelative:event_management_application_controllers\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A78C371-E2B5-49AD-996B-AE49D29C26EA}|Event_Management_Application\\Event_Management_Application.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_management_application\\event_management_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A78C371-E2B5-49AD-996B-AE49D29C26EA}|Event_Management_Application\\Event_Management_Application.csproj|solutionrelative:event_management_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Event_Management_Application_Controllers\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Event_Management_Application_Controllers\\Controllers\\EventController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
+              "Title": "RegisterationController.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
+              "RelativeDocumentMoniker": "Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
+              "RelativeToolTip": "Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:06:15.626Z",
+              "WhenOpened": "2024-11-18T15:12:56.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AttendeeController.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
               "RelativeDocumentMoniker": "Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
               "RelativeToolTip": "Event_Management_Application_Controllers\\Controllers\\AttendeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:06:14.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Services\\IRegistration.cs",
-              "RelativeDocumentMoniker": "Event_Management_Application_Controllers\\Services\\IRegistration.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Services\\IRegistration.cs",
-              "RelativeToolTip": "Event_Management_Application_Controllers\\Services\\IRegistration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:59:14.24Z",
+              "WhenOpened": "2024-11-18T10:27:08.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterationController.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
-              "RelativeDocumentMoniker": "Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
-              "RelativeToolTip": "Event_Management_Application_Controllers\\Controllers\\RegisterationController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application\\Program.cs",
+              "RelativeDocumentMoniker": "Event_Management_Application\\Program.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application\\Program.cs",
+              "RelativeToolTip": "Event_Management_Application\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:00:20.072Z",
+              "WhenOpened": "2024-11-15T13:38:05.45Z",
               "EditorCaption": ""
             }
           ]

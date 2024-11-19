@@ -8,7 +8,7 @@ namespace Event_Management_Application_Controllers.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AttendeeController : ControllerBase , IAttendee
+    public class AttendeeController : ControllerBase , IAttendee , ISoftDeleteAttendee
     {
         public readonly EventManagmentDbContext _eventManagmentDbContext;
 

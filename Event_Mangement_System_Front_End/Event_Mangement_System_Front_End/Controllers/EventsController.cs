@@ -8,46 +8,39 @@ namespace Event_Mangement_System_Front_End.Controllers
     [Route("Events")]
     public class EventsController : Controller
     {
-        private readonly HttpClient _httpClient;
+        private readonly EventRepository _eventRepository;
 
-        public string URL = "https://localhost:7261/api/Event";
-        public Logger? logger = Logger.instance();
-
-        public EventsController(HttpClient httpClient)
+        public EventsController(EventRepository eventRepository)
         {
-            this._httpClient = httpClient;
+            this._eventRepository = eventRepository;
         }
 
         [HttpGet("GetEvents")]
-        public async Task<IActionResult> GetEvents()
+        public async Task <IActionResult> GetEvents()
         {
-
-            logger?.Log("User Visited Events Page");
-
-            var response = await _httpClient.GetFromJsonAsync<List<Event>>(URL);
-            
+            var response = await _eventRepository.GetEventList();
 
             if (response == null)
             {
                 ViewData["ListMassage"] = "Event Is Empty";
             }
-            return View(response);
+            return View(response!.Value);
         }
 
         [HttpGet("AddEvent")]
-        public async Task<IActionResult> AddEvent()
+        public async Task <IActionResult> AddEvent()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<Attendee>>("https://localhost:7261/api/Attendee");
-            ViewBag.attendee = response!.ToList();
+            var response = await _eventRepository.GetAttendeeList();
+            ViewBag.attendee = response.Value;
             return View();
         }
 
         [HttpPost("AddEvent")]
-        public async Task<IActionResult> AddEvent(Event events)
+        public IActionResult AddEvent(Event events)
         {
             if (ModelState.IsValid) {
 
-                var response = await _httpClient.PostAsJsonAsync(URL,events);
+                var response = _eventRepository.AddEvent(events);
                 
                 return RedirectToAction("GetEvents");
             }
@@ -61,13 +54,12 @@ namespace Event_Mangement_System_Front_End.Controllers
         }
 
         [HttpPost("FilterEventbyDate")]
-        public async Task<IActionResult> FilterEventbyDate(string date)
+        public async Task<ActionResult> FilterEventbyDate(string date)
         {
             if (ModelState.IsValid)
             {
-                var response = await _httpClient.GetFromJsonAsync<List<Event>>(URL);
-                var FilterDate = response!.Where(e => e.Date == date).ToList();
-                ViewBag.date = FilterDate;
+                var response = await _eventRepository.FilterEventbyDate(date);
+                ViewBag.date = response.Value;
                 return View();
             }
             return View();
@@ -76,21 +68,15 @@ namespace Event_Mangement_System_Front_End.Controllers
         [HttpGet("UpdateEvent/{id}")]
         public async Task<IActionResult> UpdateEvent(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<Event>($"{URL}/{id}");
-
-            ViewData["title"] = response!.Title;
-            ViewData["date"] = response.Date;
-            ViewData["location"] = response.Location;
-
-            return View();
-
+            var response = await _eventRepository.UpdateEvent(id);
+            return View(response.Value);
         }
 
         [HttpPost("UpdateEvent/{id}")]
-        public async Task<IActionResult> UpdateEvent(int id , Event events)
+        public IActionResult UpdateEvent(int id , Event events)
         {
             if (ModelState.IsValid) {
-                var response = await _httpClient.PutAsJsonAsync<Event>($"{URL}/{id}", events);
+                var response = _eventRepository.UpdateEvent(id,events);
                 return RedirectToAction("GetEvents");
             }
             return View();
@@ -100,24 +86,14 @@ namespace Event_Mangement_System_Front_End.Controllers
         [Route("DeleteEvent/{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<Event>($"{URL}/{id}");
-
-            if (response != null)
-            {
-               await _httpClient.DeleteAsync($"{URL}/{id}");
-            }
-            else
-            {
-                return Json("Event Not Found");
-            }
+            await _eventRepository.DeleteEvent(id);
             return RedirectToAction("GetEvents");
         }
 
         [Route("SoftDelete/{id}")]
-        public async Task<IActionResult> SoftDelete(int id)
+        public  IActionResult SoftDelete(int id)
         {
-            var response = await _httpClient.PatchAsync($"https://localhost:7261/api/Event/SoftDelete/{id}", null);
-
+            var response =  _eventRepository.SoftDelete(id);
             return RedirectToAction("GetEvents");
         }
 

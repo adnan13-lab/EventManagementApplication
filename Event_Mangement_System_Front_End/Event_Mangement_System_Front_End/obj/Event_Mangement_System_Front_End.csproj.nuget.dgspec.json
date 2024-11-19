@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj": {}
+    "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj": {
+    "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj",
+        "projectUniqueName": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj",
         "projectName": "Event_Mangement_System_Front_End",
-        "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj",
+        "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj",
         "packagesPath": "C:\\Users\\adnan.shah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\obj\\",
+        "outputPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adnan.shah\\AppData\\Roaming\\NuGet\\NuGet.Config",

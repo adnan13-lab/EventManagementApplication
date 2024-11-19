@@ -4,6 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddScoped<AttendeeRepository>();
+builder.Services.AddScoped<EventRepository>();
+builder.Services.AddScoped<RegistrationRepository>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

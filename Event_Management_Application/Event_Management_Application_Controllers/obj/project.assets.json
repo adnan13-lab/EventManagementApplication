@@ -6172,11 +6172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj",
+      "projectUniqueName": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj",
       "projectName": "Event_Management_Application_Controllers",
-      "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj",
+      "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\Event_Management_Application_Controllers.csproj",
       "packagesPath": "C:\\Users\\adnan.shah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Controllers\\obj\\",
+      "outputPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Controllers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adnan.shah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6194,8 +6194,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Models\\Event_Management_Application_Models.csproj": {
-              "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management_Application\\Event_Management_Application_Models\\Event_Management_Application_Models.csproj"
+            "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Models\\Event_Management_Application_Models.csproj": {
+              "projectPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Management_Application\\Event_Management_Application_Models\\Event_Management_Application_Models.csproj"
             }
           }
         }

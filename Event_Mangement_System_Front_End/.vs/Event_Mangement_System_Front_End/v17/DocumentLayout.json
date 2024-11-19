@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\",
+  "WorkspaceRootPath": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_mangement_system_front_end\\event_mangement_system_front_end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|solutionrelative:event_mangement_system_front_end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_mangement_system_front_end\\event_mangement_system_front_end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|solutionrelative:event_mangement_system_front_end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_mangement_system_front_end\\event_mangement_system_front_end\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|solutionrelative:event_mangement_system_front_end\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_mangement_system_front_end\\event_mangement_system_front_end\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_mangement_system_front_end\\event_mangement_system_front_end\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|solutionrelative:event_mangement_system_front_end\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|c:\\users\\adnan.shah\\source\\repos\\event_management\\event_mangement_system_front_end\\event_mangement_system_front_end\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41128048-80E2-4B60-942E-2B1203F1DFA6}|Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End.csproj|solutionrelative:event_mangement_system_front_end\\controllers\\attendeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\appsettings.json",
-              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\appsettings.json",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\appsettings.json",
-              "RelativeToolTip": "Event_Mangement_System_Front_End\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-07T09:25:26.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Models\\Registration.cs",
-              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\Models\\Registration.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Models\\Registration.cs",
-              "RelativeToolTip": "Event_Mangement_System_Front_End\\Models\\Registration.cs",
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:53:07.943Z",
+              "WhenOpened": "2024-11-18T05:40:13.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegistrationController.cs",
-              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
-              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
-              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
-              "RelativeToolTip": "Event_Mangement_System_Front_End\\Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "AttendeeController.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\AttendeeController.cs",
+              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\Controllers\\AttendeeController.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Controllers\\AttendeeController.cs",
+              "RelativeToolTip": "Event_Mangement_System_Front_End\\Controllers\\AttendeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:50:11.284Z",
+              "WhenOpened": "2024-11-18T05:38:35.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Program.cs",
+              "RelativeDocumentMoniker": "Event_Mangement_System_Front_End\\Program.cs",
+              "ToolTip": "C:\\Users\\adnan.shah\\source\\repos\\Event_Management\\Event_Mangement_System_Front_End\\Event_Mangement_System_Front_End\\Program.cs",
+              "RelativeToolTip": "Event_Mangement_System_Front_End\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:20:00.634Z",
               "EditorCaption": ""
             }
           ]

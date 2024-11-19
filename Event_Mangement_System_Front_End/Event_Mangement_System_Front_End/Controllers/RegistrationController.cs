@@ -1,4 +1,5 @@
 ﻿using Event_Mangement_System_Front_End.Models;
+using Event_Mangement_System_Front_End.Services;
 using Microsoft.AspNetCore.Mvc;
 namespace Event_Mangement_System_Front_End.Controllers
 {
@@ -6,16 +7,16 @@ namespace Event_Mangement_System_Front_End.Controllers
 
     public class RegistrationController : Controller
     {
-        public readonly HttpClient _httpClient;
+        public readonly RegistrationRepository _registrationRepository;
 
-        public RegistrationController(HttpClient httpClient) {
-        this._httpClient = httpClient;
+        public RegistrationController(RegistrationRepository registrationRepository) {
+        this._registrationRepository = registrationRepository;
         }
 
         public async Task<IActionResult> GetRegistrationList()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<Registration>>("https://localhost:7261/api/Registeration/GetAllListData");
-            return View(response);
+            var response = await _registrationRepository.GetRegistrationList();
+            return View(response.Value);
         }
     }
 }

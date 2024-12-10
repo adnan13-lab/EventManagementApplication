@@ -311,3 +311,4 @@ C:\Users\adnan.shah\source\repos\Event_Management\Event_Management_Application\E
 C:\Users\adnan.shah\source\repos\Event_Management\Event_Management_Application\Event_Management_Application\obj\Debug\net8.0\Event_Management_Application.pdb
 C:\Users\adnan.shah\source\repos\Event_Management\Event_Management_Application\Event_Management_Application\obj\Debug\net8.0\Event_Management_Application.genruntimeconfig.cache
 C:\Users\adnan.shah\source\repos\Event_Management\Event_Management_Application\Event_Management_Application\obj\Debug\net8.0\ref\Event_Management_Application.dll
+C:\Users\adnan.shah\source\repos\Event_Management\Event_Management_Application\Event_Management_Application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
